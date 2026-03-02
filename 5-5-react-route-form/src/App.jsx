@@ -1,7 +1,7 @@
 import { NavLink, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
-import Registeration from "./pages/Registeration";
+import Registration from "./pages/Registration";
 
 export default function App() {
   return (
@@ -25,8 +25,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/registration" element={<Registeration />} />
-          <Route path="*" element={<h2>404 - Not Found</h2>} />
+          <Route path="/registration" element={<Registration />} />
+          <Route path="*" element={<h2>404 — Not Found</h2>} />
         </Routes>
       </main>
 
